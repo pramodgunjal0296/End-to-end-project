@@ -1,0 +1,18 @@
+Database
+
+
+
+SQL(Server)                                        NoSQL(MongoDB server)
+
+
+school(database)                                   school(database)
+
+
+
+tables                                                collections
+
+rno  name  marks                                       documents
+1     s1    100
+2     s2    99                                    {"rno":1,"name:'s1','marks"100}
+3     s3    88
+4     s4    88

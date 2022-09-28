@@ -1,0 +1,11 @@
+before Login
+
+----->login(get)
+----->register(insert)
+
+
+after Login
+
+   ----->Home
+   ----->Profile(update,delete)
+   ----->Logout
