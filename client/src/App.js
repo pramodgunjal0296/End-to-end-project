@@ -9,15 +9,12 @@ function App(props) {
   return (
     <div className="App">
       <Header/>
-      {props.isLoggedIn ?<AfterLogin/>: <BeforeLogin/>}
-     
-      
+      {props.isLoggedIn ?<AfterLogin/>: <BeforeLogin/>} 
       <Footer/>
-
     </div>
   );
 }
-App=connect(
+ App(connect)(
   (state)=>{
     return{
       isLoggedIn:state.appReducer.isLoggedIn
